@@ -23,6 +23,7 @@ h6 {
 } */
 
 section {
+    
     height: 100vh;
     display: flex;
     align-items: center;
@@ -37,7 +38,7 @@ section {
 .cgpa-container {
 
     text-align: center;
-    width: 550px;
+    width: 500px;
     height: auto;
     border-radius: 10px;
     border:  1px solid white;
@@ -83,7 +84,7 @@ section {
 
 .cgpa-container .cgpa-output {
     width: 100%;
-    margin-left: 19px;
+    
 }
 
 .cgpa-container .cgpa-output h1 {
