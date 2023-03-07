@@ -16,20 +16,23 @@ h6 {
 
 }
 
-hr {
+/* hr {
     width: 200px;
     text-align: center;
     margin: auto;
-}
+} */
 
-body {
+section {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(to top, #e376b2 0%, #D09CFA 50%);
+    background-repeat: no-repeat;
+    background-position: cover;
     margin: auto;
 }
+
 
 .cgpa-container {
 
@@ -37,13 +40,17 @@ body {
     width: 550px;
     height: auto;
     border-radius: 10px;
-    box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
-        7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1)
+    border:  1px solid white;
+    box-shadow: 
+    inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
+        2px 7px 66px 5px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px
+         rgba(0, 0, 0, 0.1)
 }
 
 .cgpa-container>.cgpa-title {
+   
     width: 100%;
-    height: 110px;
+    height: 50px;
     text-align: center;
     background-color: #3116ad;
     line-height: 50px;
