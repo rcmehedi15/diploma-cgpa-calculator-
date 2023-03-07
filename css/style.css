@@ -50,7 +50,7 @@ section {
 
 .cgpa-container>.cgpa-title {
    
-    width: 100%;
+    width: auto;
     height: 50px;
     text-align: center;
     background-color: #3116ad;
